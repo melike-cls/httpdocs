@@ -1,0 +1,53 @@
+.custom-icon-box-1:hover {
+	background-color: #ff0000 !important;
+}
+
+.icon-bar-side {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 5000;
+}
+
+.icon-bar-side a {
+  display: block;
+  text-align: center;
+  padding: 11px;
+  transition: all 1s ease;
+  color: #fff;
+  font-size: 15px;
+}
+
+.icon-bar-side a:hover {
+  background-color: #545454e6;
+}
+
+.facebook-side {
+  background: #3B5998e6;
+  color: white;
+}
+
+.instagram-side {
+  background: #cd1d56e6;
+  color: white;
+}
+
+.whatsapp-side {
+  background: #0fb216e6;
+  color: white;
+}
+
+.youtube-side {
+  background: #bb0000e6;
+  color: white;
+}
+
+.whatsapp-hover-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 5000;
+}
